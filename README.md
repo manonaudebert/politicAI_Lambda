@@ -1,4 +1,4 @@
-## Lambda ##
+## Lambda  ##
 This is the lambda code which will summarize the article and attempt to provide an output of the form topic:politician name.
 
 
@@ -9,4 +9,4 @@ rm lambdaFunc.zip
 zip -r lambdaFunc.zip .
 ```
 
-Upload zipped file. 
+Upload zipped file. If the file is too big, need to upload it to S3 first. The lambda name is get_article_topics
